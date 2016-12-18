@@ -34,3 +34,5 @@ python manage.py createsuperuser
   git remote add origin https://github.com/topecz/django_training.git
   git push -u origin master
   ```
+## Tutorial 01
+Working as expected.
