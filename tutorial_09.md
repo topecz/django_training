@@ -6,5 +6,6 @@ Command line actions:
 mkdir django-polls
 cd django-polls
 mv ../myform/polls ./
-
+cd ..
+pip3 install django-polls/dist/django-polls-0.1.tar.gz
 ```

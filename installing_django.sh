@@ -1,5 +1,6 @@
 https://tutorial.djangogirls.org/es/deploy/
 www.pythonanywhere.com
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
 #installing django
 python3 -m virtualenv python3_myvenv
 source python3_myvenv/bin/activate
@@ -28,10 +29,11 @@ git push -u origin master
 
 # https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
 ## create new brach and checkout
-git checkout -b tutorial_02
 git status
-git commit -a -m "Tutorial 02, working as expected"
-git push --set-upstream origin tutorial_02
+git checkout -b tutorial_08
+git status
+git commit -a -m "Tutorial 08, Package the app"
+git push --set-upstream origin tutorial_08
 
 git stash		## forget changes not commited
 git stash list [<options>]
